@@ -1,0 +1,40 @@
+.miSemaforo {
+    background-color:yellow ;
+    border: 1px;
+    width: 150px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+    
+    .luzVerde {
+    background-color: green;
+    width: 80%;  
+    height: 30%;  
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    }
+    
+    .luzNaranja {
+        background-color: orange;
+        width: 80%;  
+        height: 30%;  
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 50%;
+    
+    }
+    
+    .luzRoja {
+        background-color: red;
+        width: 80%;  
+        height: 30%;  
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    .encendido{
+        box-shadow: 0 0 20px 5px white;
+    }
